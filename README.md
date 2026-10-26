@@ -4,6 +4,8 @@
 
 A public-record benchmark of the Minnesota child-care claims in the December 2025 video.
 
+**Live page:** https://q3dresearch.github.io/nick-shirley-index/
+
 Status: public showcase and homework ledger. Not a fraud list. Not affiliated with Nick Shirley. Not
 legal advice.
 
