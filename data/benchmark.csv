@@ -1,0 +1,9 @@
+benchmark,value,unit,note
+fy2025_sample_median_per_slot,20811,USD,Median of the ten named centers' FY2025 CCAP per licensed slot
+fy2025_confirmed_anchor_per_slot,40889,USD,The one confirmed case; 1.96x the sample median
+fy2025_next_cluster_low,1.19,multiple,Next three centers after the confirmed anchor
+fy2025_next_cluster_high,1.26,multiple,Next three centers after the confirmed anchor
+matched_2024_median_total,1523044.5,USD,Median 2024 CCAP among 38 matched top-72 providers
+matched_2024_max_total,3020063,USD,Top 2024 CCAP among 38 matched top-72 providers
+matched_2024_median_per_slot,15689.01,USD,Median 2024 CCAP per licensed slot among 38 matched providers
+matched_2024_max_per_slot,37644.27,USD,Top 2024 CCAP per licensed slot among 38 matched providers

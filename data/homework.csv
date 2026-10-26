@@ -1,0 +1,16 @@
+workstream,status,note
+238-center frame,complete,235 current DHS licenses plus 3 closed centers
+Geocoding,complete,233 of 238 matched; 5 non-Shirley addresses unresolved
+Ten named centers,complete,FY2025 CCAP and state-visit status
+Top-72 2024 CCAP,complete,71 of 72 rows parsed; 38 matched to the frame
+Blind network queue,complete,Adverse seeds plus address/phone/holder edges
+Campaign finance exact-name check,complete,Zero exact matches for three independent candidates; one Mako employer link
+Property/landlord check,partial,2940 Chicago and 3018 17th identified; 3616 12th parcel unresolved
+DHS revocation/fine orders,pending,Metadata confirmed; full documents blocked by the document host
+Property deeds,partial,Public listing data only; official deeds still needed
+PPP/SBA loans,not started,Entity and owner-level search
+CCAP 2022-2025 history,not public,Needs a data request
+Court dockets,not started,Full federal and state dockets
+Fuzzy campaign-finance matching,not started,Employer/address/ZIP rather than exact name
+Within-ZIP case-control,not run,"Shirley vs non-Shirley, same ZIP/license type/capacity"
+Event log expansion,partial,"NYC adult daycare, California hospice/daycare, Minnesota autism"

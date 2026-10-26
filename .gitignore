@@ -1,0 +1,6 @@
+# Restricted working files. Do not publish.
+data/private/
+assets/working*
+*.env
+*.key
+*.pem

@@ -1,0 +1,20 @@
+metric,value,unit,note
+frame_centers,238,centers,Minneapolis child care frame used for the comparison
+geocoded_centers,233,centers,US Census batch geocoder; 5 non-Shirley addresses did not match
+named_centers,10,centers,Named or visited in the December 2025 Minnesota video
+active_named_centers,9,centers,Mako was closed before the video period
+fy2025_named_active_ccap,17391787,USD,Sum of the nine active named centers
+children_present_at_state_visit,8,of 9,State investigators visited after the video
+under_further_investigation,4,of 9,State said four were under further investigation; unnamed
+confirmed_federal_case,1,of 10,Future Leaders / Fahima Mahamud guilty plea
+top72_rows_parsed,71,rows,Feb 3 2026 House Oversight Attachment A
+top72_rows_matched,38,rows,Matched to the 238-center frame by license number
+ranking_auc,0.809,ROC AUC,Fixed public-record screen; Shirley-attention target
+recall_at_50,0.70,share,7 of 10 Shirley sites in the top 50
+recall_at_10,0.10,share,1 of 10 Shirley sites in the top 10
+random_recall_at_50,0.21,share,Expected recall from a random ranking
+matched_2024_ccap_total,62256081,USD,Sum of the 38 matched 2024 top-72 providers
+matched_2024_ccap_median,1523044.5,USD,Median of the 38 matched providers
+matched_2024_ccap_max,3020063,USD,Top matched provider
+matched_2024_per_slot_median,15689.01,USD,Median per licensed slot among the 38 matched providers
+matched_2024_per_slot_max,37644.27,USD,Top per-slot value among the 38 matched providers
