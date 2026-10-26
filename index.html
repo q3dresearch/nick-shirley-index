@@ -143,12 +143,15 @@
 <section>
   <h2>Ranking performance</h2>
   <div class="grid">
-    <div class="card"><div class="num">0.809</div><div class="lab">ranking AUC</div><div class="note">Review queue, not a classifier.</div></div>
-    <div class="card"><div class="num">70%</div><div class="lab">recall@50</div><div class="note">7 of 10 Shirley sites in the top 50.</div></div>
-    <div class="card"><div class="num">10%</div><div class="lab">recall@10</div><div class="note">1 of 10 in the top 10.</div></div>
+    <div class="card"><div class="num">0.809</div><div class="lab">ranking AUC</div><div class="note">vs 0.500 random · review queue, not a classifier.</div></div>
+    <div class="card"><div class="num">70%</div><div class="lab">recall@50</div><div class="note">7 of 10 · vs 21% random · 3.3× lift.</div></div>
+    <div class="card"><div class="num">10%</div><div class="lab">recall@10</div><div class="note">1 of 10 · vs 4.2% random · 2.4× lift.</div></div>
     <div class="card"><div class="num">238</div><div class="lab">centers in the frame</div><div class="note">233 geocoded; 38 matched to 2024 CCAP.</div></div>
   </div>
-  <p class="small">Random recall@50 is 21%. A high score is a reason to pull records, not a finding.</p>
+  <div class="box warn">
+    <p><strong>What recall@10 does not mean.</strong> It does not mean Nick missed nine frauds. It means our top 10 contains only one of his ten featured centers. The other nine are our unverified candidates. The intersection is one; that is a disagreement, not proof of omission.</p>
+    <p class="small">Random recall@10 is 4.2%; our 10% is about 2.4× random. At k=50, 70% vs 21% is about 3.3× random. The model is a broad screen, not a top-10 oracle.</p>
+  </div>
 </section>
 
 <section>
@@ -201,7 +204,7 @@
   <h2>Full report</h2>
   <div class="box">
     <p><strong>DM first. Verification required. No phone calls.</strong></p>
-    <p>DM <a href="https://x.com/nelvOfficial">@nelvOfficial</a> or email <strong>q3d@nelworks.com</strong> with your name, affiliation, a verifiable institutional or newsroom contact, what you want to verify, and why you need entity-level detail.</p>
+    <p>DM <a href="https://x.com/nelvOfficial">@nelvOfficial</a> or email <strong>nelv@nelworks.com</strong> with your name, affiliation, a verifiable institutional or newsroom contact, what you want to verify, and why you need entity-level detail.</p>
     <p class="small">The full report is for journalists, regulators, auditors, legal-aid or academic researchers, and affected providers or their representatives. We do not send it to anonymous accounts. We do not take unscheduled calls or voice notes. See <a href="CONTACT.md">CONTACT.md</a> and <a href="SAFETY.md">SAFETY.md</a>.</p>
   </div>
 </section>

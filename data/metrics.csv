@@ -10,9 +10,11 @@ confirmed_federal_case,1,of 10,Future Leaders / Fahima Mahamud guilty plea
 top72_rows_parsed,71,rows,Feb 3 2026 House Oversight Attachment A
 top72_rows_matched,38,rows,Matched to the 238-center frame by license number
 ranking_auc,0.809,ROC AUC,Fixed public-record screen; Shirley-attention target
+random_auc,0.500,ROC AUC,Random ranking baseline
 recall_at_50,0.70,share,7 of 10 Shirley sites in the top 50
 recall_at_10,0.10,share,1 of 10 Shirley sites in the top 10
-random_recall_at_50,0.21,share,Expected recall from a random ranking
+random_recall_at_10,0.042,share,Expected recall@10 from a random ranking
+random_recall_at_50,0.21,share,Expected recall@50 from a random ranking
 matched_2024_ccap_total,62256081,USD,Sum of the 38 matched 2024 top-72 providers
 matched_2024_ccap_median,1523044.5,USD,Median of the 38 matched providers
 matched_2024_ccap_max,3020063,USD,Top matched provider

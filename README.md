@@ -61,12 +61,20 @@ These are different samples and different years. Do not mix them into one rankin
 | Top-72 2024 rows parsed | **71** |
 | Rows matched to the frame | **38** |
 | Ranking AUC | **0.809** |
+| Random AUC | **0.500** |
 | Recall@50 | **70%** (7/10) |
-| Recall@10 | **10%** (1/10) |
 | Random recall@50 | **21%** |
+| Recall@10 | **10%** (1/10) |
+| Random recall@10 | **4.2%** |
 
 The ranking is a review queue, not a fraud classifier. A high score is a reason to pull records, not a
 finding.
+
+**What recall@10 does not mean.** It does not mean Nick missed nine frauds. It means our top 10 contains
+only **one** of his ten featured centers. The other nine are our unverified candidates. The intersection
+is one; that is a disagreement, not proof of omission. At k=10, random recall is **4.2%**, so 10% is
+about 2.4× random. At k=50, 70% vs 21% is about 3.3× random. The model is a broad screen, not a top-10
+oracle.
 
 ## Homework
 
@@ -125,7 +133,7 @@ case file.
 
 **DM first. Verification required. No phone calls.**
 
-DM [@nelvOfficial](https://x.com/nelvOfficial) or email **q3d@nelworks.com** with:
+DM [@nelvOfficial](https://x.com/nelvOfficial) or email **nelv@nelworks.com** with:
 
 1. your name and affiliation;
 2. a verifiable institutional or newsroom contact;

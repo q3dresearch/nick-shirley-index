@@ -3,7 +3,7 @@
 **DM first. Verification required. No phone calls.**
 
 - X: [@nelvOfficial](https://x.com/nelvOfficial)
-- Email: **q3d@nelworks.com**
+- Email: **nelv@nelworks.com**
 - GitHub: [q3dresearch](https://github.com/q3dresearch)
 
 ## What to send
