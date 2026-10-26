@@ -1,6 +1,8 @@
 # The Nick Shirley Index
 
-**A public-record benchmark of the Minnesota child-care claims in the December 2025 video.**
+**The one Minnesota daycare that became a federal case was already No. 1 in the public CCAP record.**
+
+A public-record benchmark of the Minnesota child-care claims in the December 2025 video.
 
 Status: public showcase and homework ledger. Not a fraud list. Not affiliated with Nick Shirley. Not
 legal advice.
@@ -20,6 +22,25 @@ legal advice.
 - It is **not** a methodology release.
 - It is **not** an accusation against any entity beyond the public record.
 - It is **not** a substitute for an audit, a regulator, or a court.
+
+## What we recovered
+
+**The one center that became a federal case was already No. 1 in the public CCAP record.**
+
+Future Leaders received **$3,020,063** in 2024 CCAP — No. 1 among the 71 parsed providers — and was the
+largest FY2025 recipient at **$3.68M**. It is the one of Shirley's ten with a federal guilty plea.
+
+| Shirley's claim | Our reconstruction |
+|---|---|
+| Ten named centers | **10 / 10 recovered** |
+| Nine active centers | **9 / 9**; **$17,391,787** FY2025 CCAP |
+| Ghost daycares | **8 / 9 had children present** when the state visited |
+| One confirmed case | **1 / 10**: Future Leaders; No. 1 total CCAP |
+| Geographic cluster | **10 / 10** in four south Minneapolis ZIPs; **5 / 10** at multi-license addresses |
+| $110M fraud | **not reconstructed**; $17.39M FY2025 for the nine active centers |
+
+This is the validation hook: we recovered his entities, his spending, his state-visit outcome, his one
+confirmed case, and his geographic cluster. We did not reproduce his $110M total.
 
 ## Scorecard
 
@@ -144,6 +165,17 @@ DM [@nelvOfficial](https://x.com/nelvOfficial) or email **nelv@nelworks.com** wi
 The full report is for journalists, regulators, auditors, legal-aid or academic researchers, and
 affected providers or their representatives. We do not send it to anonymous accounts. We do not take
 unscheduled calls or voice notes. See [`CONTACT.md`](CONTACT.md) and [`SAFETY.md`](SAFETY.md).
+
+## Receipts
+
+- [CBS Minnesota: the guilty plea](https://www.cbsnews.com/minnesota/news/fahima-mahamud-fraud-guilty-plea)
+- [CBS Minnesota: state visits, 8 of 9 with children present](https://www.cbsnews.com/minnesota/news/minnesota-child-care-centers-viral-video-operating-expected/)
+- [KSTP: DCYF release and “operating as expected”](https://kstp.com/kstp-news/top-news/dcyf-child-care-centers-featured-in-viral-video-operating-as-expected/)
+- [Parsed House Oversight Attachment A](https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/data/mn_top_ccap_2024.csv)
+- [Minnesota DHS licensing lookup](https://licensinglookup.dhs.state.mn.us/)
+- [Minnesota Secretary of State](https://www.sos.state.mn.us/)
+
+Every number is tied to a public record. The method and candidate layer are withheld, not the receipts.
 
 ## Sources
 
