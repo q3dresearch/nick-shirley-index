@@ -34,7 +34,7 @@ largest FY2025 recipient at **$3.68M**. It is the one of Shirley's ten with a fe
 |---|---|
 | Ten named centers | **10 / 10 recovered** |
 | Nine active centers | **9 / 9**; **$17,391,787** FY2025 CCAP |
-| Ghost daycares | **8 / 9 had children present** when the state visited |
+| Ghost daycares | **not established**; 8 / 9 at a post-video state visit |
 | One confirmed case | **1 / 10**: Future Leaders; No. 1 total CCAP |
 | Geographic cluster | **10 / 10** in four south Minneapolis ZIPs; **5 / 10** at multi-license addresses |
 | $110M fraud | **not reconstructed**; $17.39M FY2025 for the nine active centers |
@@ -49,7 +49,7 @@ confirmed case, and his geographic cluster. We did not reproduce his $110M total
 | Centers named or visited in the Minnesota video | **10** |
 | Active centers at the time of the state visit | **9** |
 | FY2025 CCAP to the nine active centers | **$17,391,787** |
-| State visits with children present | **8 of 9** |
+| State visits with children present | **8 of 9**, post-video |
 | Centers under further state investigation | **4 of 9**, unnamed |
 | Confirmed federal cases among the ten | **1 of 10** |
 | The $110M claim | **not reconstructed** from the FY2025 release |
@@ -58,6 +58,9 @@ confirmed case, and his geographic cluster. We did not reproduce his $110M total
 The one confirmed case is **Future Leaders Early Learning Center / Fahima Mahamud**: a guilty plea
 covering **$4.6M CCAP** and **$854K** in child-nutrition fraud. That is a confirmed case, not a model
 result. The other nine are not confirmed by this project.
+
+The state visit is **post-video**. Children present at that visit do not establish pre-video occupancy.
+The visit is consistent with both prior operation and post-video adaptation. It cannot distinguish them.
 
 ## Benchmark
 

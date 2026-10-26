@@ -4,7 +4,7 @@ geocoded_centers,233,centers,US Census batch geocoder; 5 non-Shirley addresses d
 named_centers,10,centers,Named or visited in the December 2025 Minnesota video
 active_named_centers,9,centers,Mako was closed before the video period
 fy2025_named_active_ccap,17391787,USD,Sum of the nine active named centers
-children_present_at_state_visit,8,of 9,State investigators visited after the video
+children_present_at_state_visit,8,of 9,Post-video state visit; not a pre-video baseline
 under_further_investigation,4,of 9,State said four were under further investigation; unnamed
 confirmed_federal_case,1,of 10,Future Leaders / Fahima Mahamud guilty plea
 top72_rows_parsed,71,rows,Feb 3 2026 House Oversight Attachment A
