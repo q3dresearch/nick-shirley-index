@@ -9,9 +9,9 @@ under_further_investigation,4,of 9,State said four were under further investigat
 confirmed_federal_case,1,of 10,Future Leaders / Fahima Mahamud guilty plea
 top72_rows_parsed,71,rows,Feb 3 2026 House Oversight Attachment A
 top72_rows_matched,38,rows,Matched to the 238-center frame by license number
-ranking_auc,0.809,ROC AUC,Fixed public-record screen; Shirley-attention target
+ranking_auc,0.811,ROC AUC,Fixed public-record screen; Shirley-attention target
 random_auc,0.500,ROC AUC,Random ranking baseline
-recall_at_50,0.70,share,7 of 10 Shirley sites in the top 50
+recall_at_50,0.60,share,7 of 10 Shirley sites in the top 50
 recall_at_10,0.10,share,1 of 10 Shirley sites in the top 10
 random_recall_at_10,0.042,share,Expected recall@10 from a random ranking
 random_recall_at_50,0.21,share,Expected recall@50 from a random ranking

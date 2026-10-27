@@ -86,9 +86,9 @@ These are different samples and different years. Do not mix them into one rankin
 | Geocoded centers | **233** |
 | Top-72 2024 rows parsed | **71** |
 | Rows matched to the frame | **38** |
-| Ranking AUC | **0.809** |
+| Ranking AUC | **0.811** |
 | Random AUC | **0.500** |
-| Recall@50 | **70%** (7/10) |
+| Recall@50 | **60%** (6/10) |
 | Random recall@50 | **21%** |
 | Recall@10 | **10%** (1/10) |
 | Random recall@10 | **4.2%** |
@@ -99,7 +99,7 @@ finding.
 **What recall@10 does not mean.** It does not mean Nick missed nine frauds. It means our top 10 contains
 only **one** of his ten featured centers. The other nine are our unverified candidates. The intersection
 is one; that is a disagreement, not proof of omission. At k=10, random recall is **4.2%**, so 10% is
-about 2.4× random. At k=50, 70% vs 21% is about 3.3× random. The model is a broad screen, not a top-10
+about 2.4× random. At k=50, 60% vs 21% is about 2.9× random. The model is a broad screen, not a top-10
 oracle.
 
 ## Homework
