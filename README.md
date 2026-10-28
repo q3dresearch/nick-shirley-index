@@ -105,6 +105,37 @@ is one; that is a disagreement, not proof of omission. At k=10, random recall is
 about 2.4× random. At k=50, 60% vs 21% is about 2.9× random. The model is a broad screen, not a top-10
 oracle.
 
+## California cluster
+
+The same public-record method applied to **14545 Friar St, Van Nuys**:
+
+| metric | value |
+|---|---:|
+| CMS home health agencies | **48** |
+| CMS hospices | **26** |
+| Combined federal providers | **74** |
+| CDPH active home health licenses | **57** |
+| CDPH active hospice licenses | **11** |
+| CDPH active total | **68** |
+| CMS hospices with no exact-name CDPH record | **22** |
+| 2024 Medicare PUF matched | **17 / 26** |
+
+It is the largest home health address cluster in California (48, next 27) and the largest hospice
+address cluster in Los Angeles County (26, next 12). The public **89** count is not a current hospice
+count; current CDPH shows 68 total licenses.
+
+Aggregate charts:
+
+- [Home health first](assets/ca_merabi_home_health.png)
+- [CMS vs CDPH counts](assets/ca_merabi_cms_cdph.png)
+- [Address concentration](assets/ca_merabi_cluster.png)
+- [Hospice quality vs LA County](assets/ca_merabi_quality.png)
+
+[Open the California chart gallery](california.html) · [aggregate case note](https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/cases/CA-MERABI-2026.md).
+
+No candidate names are published. The 2024 PUF shows $17.6M to 706 beneficiaries; one upper-tail
+provider is above the California 90th percentile on payment and days per beneficiary, name withheld.
+
 ## Homework
 
 Completed:

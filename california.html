@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>California cluster: aggregate charts</title>
+<meta name="description" content="Aggregate charts for the 14545 Friar St, Van Nuys home health and hospice cluster. No candidate names.">
+<style>
+  :root { --bg:#f7f5ef; --paper:#fffdf8; --ink:#17202a; --muted:#5b6570; --line:#d9d4c8; --blue:#1f4e79; --orange:#b85c00; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 Georgia,"Iowan Old Style","Palatino Linotype",serif; }
+  a { color:var(--blue); }
+  .wrap { max-width:1120px; margin:0 auto; padding:32px 22px 64px; }
+  header { border-bottom:2px solid var(--ink); padding-bottom:18px; margin-bottom:28px; }
+  .kicker { font:700 12px/1.2 ui-sans-serif,system-ui,sans-serif; letter-spacing:.14em; text-transform:uppercase; color:var(--orange); margin:0 0 10px; }
+  h1 { font-size:clamp(32px,5vw,54px); line-height:1.04; margin:0 0 12px; letter-spacing:-.02em; }
+  .dek { font-size:clamp(16px,2vw,20px); color:var(--muted); max-width:820px; margin:0; }
+  h2 { font-size:clamp(22px,3vw,30px); margin:38px 0 12px; border-bottom:1px solid var(--line); padding-bottom:8px; }
+  p { margin:0 0 14px; }
+  .grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; margin:18px 0; }
+  .card { background:var(--paper); border:1px solid var(--line); padding:14px; }
+  .card .num { font:700 clamp(22px,3vw,32px)/1.05 ui-sans-serif,system-ui,sans-serif; color:var(--blue); }
+  .card .lab { font:600 12px/1.3 ui-sans-serif,system-ui,sans-serif; color:var(--muted); margin-top:6px; }
+  .figure { background:var(--paper); border:1px solid var(--line); padding:8px; margin:18px 0; }
+  .figure img { width:100%; height:auto; display:block; }
+  .caption { font:12px/1.4 ui-sans-serif,system-ui,sans-serif; color:var(--muted); padding:8px 4px 2px; }
+  table { width:100%; border-collapse:collapse; margin:12px 0 18px; background:var(--paper); }
+  th,td { text-align:left; padding:9px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font:700 12px/1.2 ui-sans-serif,system-ui,sans-serif; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }
+  td.n { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .small { font-size:13px; color:var(--muted); }
+  .box { background:var(--paper); border-left:4px solid var(--blue); padding:16px 18px; margin:18px 0; }
+  ul { margin:8px 0 16px 20px; padding:0; }
+  footer { border-top:1px solid var(--line); margin-top:46px; padding-top:16px; color:var(--muted); font-size:13px; }
+  @media(max-width:900px){ .grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
+  @media(max-width:520px){ .grid{grid-template-columns:1fr;} .wrap{padding:22px 16px 48px;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="kicker">California · aggregate charts</p>
+  <h1>14545 Friar St, Van Nuys</h1>
+  <p class="dek">A home health cluster first, hospice cluster second. These charts are aggregate only; candidate names and exact predicates are private.</p>
+</header>
+
+<section>
+  <h2>Counts</h2>
+  <div class="grid">
+    <div class="card"><div class="num">48</div><div class="lab">CMS home health agencies</div></div>
+    <div class="card"><div class="num">26</div><div class="lab">CMS hospices</div></div>
+    <div class="card"><div class="num">74</div><div class="lab">combined federal providers</div></div>
+    <div class="card"><div class="num">68</div><div class="lab">current CDPH active licenses</div></div>
+  </div>
+  <table>
+    <thead><tr><th>measure</th><th>value</th><th>note</th></tr></thead>
+    <tbody>
+      <tr><td>CMS home health agencies</td><td class="n">48</td><td>47 Van Nuys + 1 Sherman Oaks</td></tr>
+      <tr><td>CMS hospices</td><td class="n">26</td><td>largest hospice address cluster in LA County</td></tr>
+      <tr><td>CMS federal providers</td><td class="n">74</td><td>48 + 26</td></tr>
+      <tr><td>CDPH home health licenses</td><td class="n">57</td><td>current active layer</td></tr>
+      <tr><td>CDPH hospice licenses</td><td class="n">11</td><td>current active layer</td></tr>
+      <tr><td>CDPH active total</td><td class="n">68</td><td>57 + 11</td></tr>
+      <tr><td>Public reported count</td><td class="n">89</td><td>not a current hospice count</td></tr>
+      <tr><td>CMS hospices with no exact-name CDPH record</td><td class="n">22</td><td>licensing-gap candidate, not proof</td></tr>
+      <tr><td>2024 Medicare PUF matched</td><td class="n">17 / 26</td><td>$17.6M to 706 beneficiaries</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Home health is the larger cluster</h2>
+  <div class="figure">
+    <img src="assets/ca_merabi_home_health.png" alt="Aggregate chart: Merabi home health and hospice counts, California top home health addresses, certification years, and star ratings.">
+    <div class="caption">48 CMS home health + 26 CMS hospice at one address; 57 CDPH home health + 11 hospice active. California home health rank: 48 at one address, next 27. Aggregate only.</div>
+  </div>
+</section>
+
+<section>
+  <h2>CMS and CDPH do not describe the same population</h2>
+  <div class="figure">
+    <img src="assets/ca_merabi_cms_cdph.png" alt="Aggregate chart comparing CMS-certified and CDPH-active counts at 14545 Friar St and ZIP 91411.">
+    <div class="caption">26 CMS hospices vs 11 CDPH hospice licenses at the building. 22 of 26 CMS hospices have no exact-name CDPH record; four exact name matches and one CCN match. This is a reconciliation gap, not proof of unlicensed operation.</div>
+  </div>
+</section>
+
+<section>
+  <h2>Address concentration</h2>
+  <div class="figure">
+    <img src="assets/ca_merabi_cluster.png" alt="Aggregate chart of ZIP 91411 hospice address clusters and Merabi certification years.">
+    <div class="caption">26 CMS hospices at 14545 Friar St vs 3 at the next ZIP address. Address normalization and base rates are in the public aggregate note.</div>
+  </div>
+</section>
+
+<section>
+  <h2>Hospice quality vs Los Angeles County</h2>
+  <div class="figure">
+    <img src="assets/ca_merabi_quality.png" alt="Aggregate chart of Merabi hospice quality distributions compared with Los Angeles County.">
+    <div class="caption">Cluster median Hospice Care Index 7 vs 8 countywide; per-beneficiary spending $28,393 vs $27,044; visits near death 80% vs 87.5%. One upper-tail provider is above the California 90th percentile on payment and days; name withheld.</div>
+  </div>
+</section>
+
+<section>
+  <h2>What these charts do not show</h2>
+  <div class="box">
+    <p>They do not show that any provider billed for services it did not deliver, that any owner controlled another provider, or that the building is unlicensed. They show a cluster and a set of reconciliation gaps that require records.</p>
+    <p class="small">Sources: CMS Hospice – General Information (Aug 2026); CMS Home Health Care Agencies (Oct 2026); CMS Hospice Provider Data (Aug 2026); CMS PAC Hospice PUF (2024); CDPH/CalHealthFind (Oct 2026); LA County Assessor (Oct 2026).</p>
+  </div>
+</section>
+
+<section>
+  <h2>Audit the work</h2>
+  <ul>
+    <li><a href="https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/cases/CA-MERABI-2026.md">Aggregate case note</a></li>
+    <li><a href="https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/METHODS.md">Methods</a></li>
+    <li><a href="https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/DATA-SOURCES.md">Data sources</a></li>
+    <li><a href="https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/LIMITATIONS.md">Limitations</a></li>
+    <li><a href="https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/CORRECTIONS.md">Corrections</a></li>
+    <li><a href="https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/scripts/check_aggregate.py">Aggregate reproducibility check</a></li>
+  </ul>
+</section>
+
+<footer>
+  <p>Public records only. Not a fraud list. No candidate names. Text and charts: CC BY 4.0.</p>
+  <p><a href="index.html">← Back to the index</a></p>
+</footer>
+</div>
+</body>
+</html>
