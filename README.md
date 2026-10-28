@@ -171,6 +171,24 @@ The full report is for journalists, regulators, auditors, legal-aid or academic 
 affected providers or their representatives. We do not send it to anonymous accounts. We do not take
 unscheduled calls or voice notes. See [`CONTACT.md`](CONTACT.md) and [`SAFETY.md`](SAFETY.md).
 
+## Method, limits, and corrections
+
+We publish the aggregate method, sources, limitations, and corrections. The live thresholds,
+candidate layer, and working map stay private.
+
+- [Trust and method index](https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/TRUST.md)
+- [Methods](https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/METHODS.md)
+- [Data sources](https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/DATA-SOURCES.md)
+- [Limitations](https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/LIMITATIONS.md)
+- [Corrections](https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/CORRECTIONS.md)
+- [Naming policy](https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/NAMING.md)
+- [Privacy](https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/PRIVACY.md)
+- [Governance](https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/GOVERNANCE.md)
+- [Open questions](https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/OPEN-QUESTIONS.md)
+- [Aggregate reproducibility check](https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/scripts/check_aggregate.py)
+
+California cluster aggregate note: [14545 Friar St, Van Nuys](https://github.com/q3dresearch/api-reserve/blob/main/indicator-numbers/forensics/cases/CA-MERABI-2026.md). No candidate names are published.
+
 ## Receipts
 
 - [CBS Minnesota: the guilty plea](https://www.cbsnews.com/minnesota/news/fahima-mahamud-fraud-guilty-plea)
