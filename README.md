@@ -9,6 +9,9 @@ A public-record benchmark of the Minnesota child-care claims in the December 202
 Status: public showcase and homework ledger. Not a fraud list. Not affiliated with Nick Shirley. Not
 legal advice.
 
+**Repo map:** this repo is the public showcase. The data/forensics backend, aggregate CSVs, trust pack,
+and case files live in [`q3dresearch/api-reserve`](https://github.com/q3dresearch/api-reserve).
+
 ![Public map](assets/showcase.png)
 
 ## What this is
